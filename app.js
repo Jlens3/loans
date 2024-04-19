@@ -16,6 +16,7 @@ const fs = require('fs').promises;
 app.use(express.static(path.join(`${__dirname}`)));
 
 const port = 3000; // You can use any available port
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
